@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:paddingBottom="50dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:hint="Username"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/btn"/>
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/btn"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Keep me signed in"
+        android:layout_gravity="left"
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/black"
+        android:hint="#FFFBF8"
+        android:layout_marginTop="10dp"
+        android:buttonTint="@color/black"/>
+    <Button
+        android:id="@+id/btnPassword"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Sign in"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F8635A3D"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password?"
+        android:layout_marginTop="5dp"
+        android:textColor="#858383"/>
+
+
+
+</LinearLayout>
